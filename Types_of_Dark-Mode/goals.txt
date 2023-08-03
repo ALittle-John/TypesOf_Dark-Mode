@@ -1,0 +1,11 @@
+Curtain: Like a curtain pulling from left to right (my choose).
+
+Flood: Dark mode grow up like a flood from underground until top.
+
+Natural: Just a normal dark mode with a simple transition.
+
+Sun&Moon: The sun is above the screen and the moon below, when dark mode is clicked happens an animation that both change the place. Initialy the screen will be all white but with a little gradient dark at the bottom.
+
+Wave: I don't know yet... But, like the flood?
+
+Black beard: The final one. From One Piece, a little animation 2D of Black beard will apear and you him power to put the dark mode on screen.
