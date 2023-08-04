@@ -1,1 +1,14 @@
-/* Estilização a nível de componentes */
+/* Estilização de componentes na página*/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  /* background-color: blue; */ /*Just to locate my self*/
+  justify-content: space-evenly;
+}
+
