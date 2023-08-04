@@ -1,0 +1,12 @@
+label {
+  background-color: rgb(15, 15, 17);
+  border-radius: 50%;
+  cursor: pointer;
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+}
+
+input {
+  visibility: hidden;
+}
