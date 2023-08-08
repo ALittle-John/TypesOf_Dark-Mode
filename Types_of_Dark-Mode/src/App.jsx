@@ -1,18 +1,14 @@
 
 import './App.css'
-import CmmBlackCircle from './components/1CmmBlackCircle/bc'
 
+import DMNatural from './components/Natural/DMNatural'
 
 function App() {
   
   return (
-    <div>
-      <CmmBlackCircle/>
-      <CmmBlackCircle/>
-      <CmmBlackCircle/>
-      <CmmBlackCircle/>
-      <CmmBlackCircle/>
-    </div>
+    <>
+      <DMNatural/>
+    </>
   )
 }
 

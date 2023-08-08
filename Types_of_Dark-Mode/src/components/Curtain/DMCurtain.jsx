@@ -1,10 +1,11 @@
-import React, { useState } from "react";
+import './DMCurtain.css'
+import CmmBlackCircle from "../1CmmBlackCircle/bc"
 
 function DMCurtain() {
 
   return (
     <>
-    
+      <CmmBlackCircle/>
     </>
   )
 }
