@@ -5,8 +5,14 @@ label {
   display: inline-block;
   width: 45px;
   height: 45px;
+  position: relative;
 }
 
 input {
-  visibility: hidden;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  cursor: pointer;
+  /* I tried to bring as exemple the CSS style from my other project with pure js, but it seems that unfortunately, the React didn't allow the use of the same style. */
 }

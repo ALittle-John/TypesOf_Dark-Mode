@@ -1,14 +1,3 @@
 /* Estilização de componentes na página*/
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
-div {
-  display: flex;
-  flex-direction: column;
-  /* background-color: blue; */ /*Just to locate my self*/
-  justify-content: space-evenly;
-}
-
+/* 
+//Devo fazer com que quando um componentte for ativo, tome o lugar de camada principal visual.

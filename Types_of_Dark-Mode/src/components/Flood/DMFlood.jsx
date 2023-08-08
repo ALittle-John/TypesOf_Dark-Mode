@@ -1,9 +1,10 @@
-import React, { useState } from "react";
+import CmmBlackCircle from "../1CmmBlackCircle/bc";
 
 function DMFlood() {
+
   return (
     <>
-    
+      <CmmBlackCircle/>
     </>
   )
 }

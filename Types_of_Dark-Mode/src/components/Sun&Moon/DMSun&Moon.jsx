@@ -1,9 +1,9 @@
-import React, { useState } from "react";
+import CmmBlackCircle from "../1CmmBlackCircle/bc"
 
 function DMSunMoon() {
   return (
     <>
-    
+      <CmmBlackCircle/>
     </>
   )
 }
