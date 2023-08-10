@@ -1,27 +1,21 @@
-import { useState } from 'react'
-
+/* eslint-disable react/prop-types */
 import './bc.css'
 
-function CmmBlackCircle() {
+import '../Natural/DMNatural'
+import '../Curtain/DMCurtain'
 
-  const [checked, setChecked] = useState(false)
-  if(checked) {
-    document.body.classList.toggle('dark')
-  } else {
-    document.body.classList.remove('dark')
-  }
-
+function CmmBlackCircle({checked, onchange}) {
+//It was necessary to take the state "check" to a higher level, as a prop, to take it for all files.
+//CmmBlackCircle is only responsible for rendering a checkbox and reciving the values of "checked" and "onchange".
   return (
-    <>
-      <label htmlFor="BlackCircle">
-        <input
-        type="checkbox"
-        name="BlackCircle"
-        checked={checked}
-        onChange={(e) => setChecked(e.target.checked)}
-        />
-      </label>
-    </>
+    <label htmlFor="BlackCircle">
+      <input
+      type="checkbox"
+      name="BlackCircle"
+      checked={checked}
+      onChange={onchange}
+      />
+    </label>
   )
 }
 
