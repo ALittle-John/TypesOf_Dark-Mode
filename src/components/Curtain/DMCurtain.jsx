@@ -7,14 +7,17 @@ function DMCurtain() {
 
 const [darkMode, setDarkMode] = useState(false)
 
-const handleDarkModeChange = (e) => {
+const handleDMChangeCurtain = (e) => {
   setDarkMode(e.target.checked)
 }
 //Associate with the "checked", "useDarkMode" is responsible for actualizating the state.
 
   return (
-    <div className={darkMode ? 'dark-mode' : ''}>
-      <CmmBlackCircle checked={darkMode} onchange={handleDarkModeChange}/>
+    <div className={darkMode ? 'dark-mode-Curtain' : ''}>
+      <div className='container-Curtain'>
+        <h3>Curtain</h3>
+        <CmmBlackCircle checked={darkMode} onchange={handleDMChangeCurtain}/>
+      </div>
     </div>
   )
 }

@@ -1,11 +1,19 @@
 label {
-  background-color: rgb(15, 15, 17);
+  background-color: rgb(10, 10, 17);
   border-radius: 50%;
   cursor: pointer;
   display: inline-block;
   width: 45px;
   height: 45px;
   position: relative;
+  border-style: solid;
+  border-color: rgba(255, 0, 255, 0.427);
+  will-change: filter;
+  transition: 300ms;
+}
+label:hover {
+  filter: drop-shadow(0 0 2em #f0f)
+  /* drop-shadow(offset-x offset-y blur-radius color) - New learning*/
 }
 
 input {
