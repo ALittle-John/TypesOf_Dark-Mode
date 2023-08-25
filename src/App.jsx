@@ -12,5 +12,6 @@ function App() {
     </>
   )
 }
+/* Descobri um bug: O dark mode está agindo da mesma forma, pegando apenas 1 tipo de dark mode e não conforme o arquivo designado. */
 
 export default App

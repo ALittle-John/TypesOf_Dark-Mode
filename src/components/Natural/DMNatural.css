@@ -1,0 +1,8 @@
+.dark-mode {
+  background-color: rgb(15, 15, 17);
+  color: #e6dbdb;
+  z-index: 1;
+  min-height: 100%;
+  position: fixed;
+}
+/* Talvez a mudança de o quanto o dark mode deverá tomar da página, deve ser feito aqui */
