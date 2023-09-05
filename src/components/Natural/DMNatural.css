@@ -4,6 +4,7 @@
   z-index: 1;
   min-height: 100%;
   position: fixed;
+  transition: 0.5s linear, color 0.5s linear;
 }
 .container-Natural {
   height: fit-content;
