@@ -1,4 +1,4 @@
-/* Estilização para o documento HTML, ou seja, eestilização geral. */
+/* Estilização para o documento HTML, ou seja, estilização geral. */
 * {
   padding: 0;
   margin: 0;
@@ -6,14 +6,15 @@
 }
 
 div {
-  height: 100vh;
-  width: 100vw;
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: space-evenly;
+  height: 100%;
+  width: 100%;
 }
 
 body {
   background-color: #e6dbdb;
+  height: 100vh;
 }

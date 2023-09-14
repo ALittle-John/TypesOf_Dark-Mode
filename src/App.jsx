@@ -7,11 +7,26 @@ function App() {
   
   return (
     <>
-      <DMNatural/>
-      <DMCurtain/>
+      {/* <div className='camada0'> */}
+        <DMNatural/>
+      {/* </div> */}
+      {/* <div className='camada1'> */}
+        <DMCurtain/>
+      {/* </div> */}
+      {/* <div className='camada2'> */}
+        <DMNatural/>
+      {/* </div> */}
+      {/* <div className='camada3'> */}
+        <DMNatural/>
+      {/* </div> */}
+      {/* <div className='camada4'> */}
+        <DMCurtain/>
+      {/* </div> */}
+      {/* <div className='camada5'> */}
+        <DMNatural/>
+      {/* </div> */}
     </>
   )
 }
-/* Descobri um bug: O dark mode está agindo da mesma forma, pegando apenas 1 tipo de dark mode e não conforme o arquivo designado. */
 
 export default App

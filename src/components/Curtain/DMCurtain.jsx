@@ -10,7 +10,6 @@ const [darkMode, setDarkMode] = useState(false)
 const handleDMChangeCurtain = (e) => {
   setDarkMode(e.target.checked)
 }
-//Associate with the "checked", "useDarkMode" is responsible for actualizating the state.
 
   return (
     <div className={darkMode ? 'dark-mode-Curtain' : ''}>
